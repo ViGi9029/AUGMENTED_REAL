@@ -8,6 +8,7 @@ public class AddPictureMode : MonoBehaviour
     public ImageInfo imageInfo;
     [SerializeField] float defaultScale = 0.5f;
     [SerializeField] GameObject placedPrefab;
+    [SerializeField] GameObject addUICanvas;
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
     void OnEnable()
     {
@@ -15,8 +16,12 @@ public class AddPictureMode : MonoBehaviour
     }
     public void OnPlaceObject(InputValue value)
     {
-        Vector2 touchPosition = value.Get<Vector2>();
-        PlaceObject(touchPosition);
+        if (addUICanvas.active)
+        {
+            Vector2 touchPosition = value.Get<Vector2>();
+            PlaceObject(touchPosition);
+        }
+
     }
     void PlaceObject(Vector2 touchPosition)
     {
@@ -29,19 +34,13 @@ public class AddPictureMode : MonoBehaviour
             Quaternion rotation = Quaternion.LookRotation(normal, Vector3.up);
             GameObject spawned = Instantiate(placedPrefab, hitPose.position,
             rotation);
+            FramedPhoto picture = spawned.GetComponent<FramedPhoto>();
+            picture.SetImage(imageInfo);
             // Find the Image object in the prefab
-            Transform imageTransform = spawned.transform.Find("Image");
+            //Transform imageTransform = spawned.transform.Find("FramedPhoto/AspectScaler/Image");
 
-            if (imageTransform != null)
-            {
-                Renderer imageRenderer = imageTransform.GetComponent<Renderer>();
-
-                if (imageRenderer != null && imageInfo.texture != null)
-                {
-                    // Set the chosen image texture to the Image object's material's base map
-                    imageRenderer.material.SetTexture("_BaseMap", imageInfo.texture);
-                }
-            }
+            //Renderer imageRenderer = imageTransform.GetComponent<Renderer>();
+            //imageRenderer.material.SetTexture("_BaseMap", imageInfo.texture);
             spawned.transform.localScale = new
             Vector3(defaultScale, defaultScale, 1.0f);
             InteractionController.EnableMode("Main");
