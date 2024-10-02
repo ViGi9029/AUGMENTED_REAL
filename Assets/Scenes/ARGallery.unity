@@ -298,7 +298,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: d649e9fd3718e7e43bc406ae0dcd1f70, type: 3}
+      objectReference: {fileID: 2800000, guid: ab290f78c027a2d4d8868e068b8b8413, type: 3}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1173,7 +1173,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: a7643469eaac6f645ac7b000561d3a45, type: 3}
+      objectReference: {fileID: 2800000, guid: e40fe670af864024d8760101482b32b4, type: 3}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1454,7 +1454,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 3b20537503588c847ac16ad1f6edd764, type: 3}
+      objectReference: {fileID: 2800000, guid: 28289b9700e0fcb4bad61b4add2359b2, type: 3}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2850,7 +2850,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: c05809dd90afaad4a9d6770b4e9d963e, type: 3}
+      objectReference: {fileID: 2800000, guid: 9ba189ae9c564d14cb965e14e58e64c9, type: 3}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3325,7 +3325,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: e119572c36077cb4b9c405bb56cfe54e, type: 3}
+      objectReference: {fileID: 2800000, guid: e5da6655e18438c4594b3457fb0f77fa, type: 3}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3489,7 +3489,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 56291d02ba6fc94428e4a0b9b4c98eee, type: 3}
+      objectReference: {fileID: 2800000, guid: ef768a9ea14e72c4095b469be3676ead, type: 3}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -4441,7 +4441,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: eef43a701c98fc74f984a01edff9e4f0, type: 3}
+      objectReference: {fileID: 2800000, guid: 478041e7aed129f40aeb8a79ae02690d, type: 3}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -6644,7 +6644,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 5c62040c30cd3b946b0cce3d36146a1d, type: 3}
+      objectReference: {fileID: 2800000, guid: 5d124a2949b34d34e91a909ba7725ced, type: 3}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -7009,6 +7009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Image Button
       objectReference: {fileID: 0}
+    - target: {fileID: 5619634413240457867, guid: fb6dc34624ee3b3449d5cd403f484f14,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 05b4502c903168a409d196b6db3370eb, type: 3}
     - target: {fileID: 6163184354648358796, guid: fb6dc34624ee3b3449d5cd403f484f14,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
